@@ -1,0 +1,19 @@
+# Secrets - NEVER commit these
+*.pem
+*.key
+.env
+terraform/terraform.tfvars
+terraform/*.auto.tfvars
+
+# Terraform local state and cache
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+tfplan
+
+# Local files
+.DS_Store
+__pycache__/
+*.bak.*

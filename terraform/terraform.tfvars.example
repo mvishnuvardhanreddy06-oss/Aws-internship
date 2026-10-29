@@ -1,0 +1,8 @@
+# Copy to terraform.tfvars (that file is git-ignored) and edit.
+student_name = "Meenapally Vishnuvardhan Reddy"
+my_ip_cidr   = "203.0.113.25/32" # run: scripts/get-my-ip.sh
+region       = "ap-south-1"
+
+# Stage 1 = false (baseline: VPCs + instances, no peering yet)
+# Stage 2 = true  (peering connection + 3 routes)
+enable_peering = false
